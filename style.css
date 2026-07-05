@@ -1,0 +1,38 @@
+.entrar{
+width: 1870px;
+display: flex;
+justify-content: flex-end;
+flex-direction:row;
+margin-right: 10px;
+padding: 10px;
+}
+.inputs{
+   display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+input{
+    height: 30px;
+    width: 750px;
+    border-radius: 10px;
+}
+button{
+background-color: rgb(0, 119, 255);
+border-radius: 10px;
+}
+.criar{
+    background-color: aliceblue;
+}
+.imgfrase{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    border: solid rgb(212, 212, 212) 1px;
+}
+footer{
+    color: rgb(150, 147, 147);
+    gap: 50px;
+}
+.ama{
+    color: rgb(0, 102, 255);
+}
