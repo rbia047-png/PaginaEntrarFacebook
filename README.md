@@ -1,0 +1,1 @@
+Projeto desenvolvido com o objetivo de recriar a interface da página do Facebook, praticando conceitos de HTML e CSS. Durante o desenvolvimento, foram aplicados conhecimentos de estruturação de páginas, estilização, posicionamento de elementos e organização do layout para criar uma interface semelhante à plataforma original.
