@@ -92,6 +92,113 @@ footer{
 .ama{
     color: rgb(0, 102, 255);
 }
+        /* RESPONSIVIDADE */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Tablets e telas menores */
+@media (max-width: 1200px) {
+
+    .entrar {
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    input {
+        width: 100%;
+        max-width: 750px;
+    }
+
+    .imgfrase img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Celulares */
+@media (max-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 10px;
+    }
+
+    body > img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .entrar {
+        width: 100%;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .inputs {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+    }
+
+    button {
+        height: 40px;
+        width: 100%;
+    }
+
+    .imgfrase {
+        width: 100%;
+        gap: 5px;
+    }
+
+    .imgfrase img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imgfrase h1 {
+        font-size: 28px;
+        margin: 5px 0;
+    }
+
+    footer {
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.6;
+        padding: 20px 5px;
+    }
+}
+
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+
+    .imgfrase h1 {
+        font-size: 22px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
     </style>
 </body>
 </html>
